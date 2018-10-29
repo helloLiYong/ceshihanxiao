@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ceshi3_Example' do
+  pod 'ceshi3', :path => '../'
+
+  target 'ceshi3_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
